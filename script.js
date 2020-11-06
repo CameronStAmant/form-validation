@@ -80,3 +80,8 @@ const passwordConfirmationErrorList = function passwordConfirmationErrors() {
     passwordConfirmationError.innerHTML = '';
   }
 };
+
+const form = document.getElementById('formy');
+form.addEventListener('submit', () => {
+  alert('Thanks for the submission!');
+});
