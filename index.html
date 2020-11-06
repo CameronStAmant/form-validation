@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link href="./style.css" rel="stylesheet">
+</head>
+
+<body>
+  <form>
+    <label>Email
+      <input type="email" id="email" name="email" minlength="5" required>
+      <span class="error"></span>
+    </label><br />
+    <label>Country
+      <input type='text' id='country' name='country' required minlength='2' maxlength='2' pattern='[a-zA-Z]{2}'>
+      <span class="error"></span>
+    </label><br />
+    <label>Zip Code
+      <input type='text' id='zip' name='zip' required minlength='5' maxlength='5' pattern='[0-9]{5}'>
+      <span class="error"></span>
+    </label><br />
+    <label>Password
+      <input type='password' id='password' name='password' required minlength='8'>
+      <span class="error"></span>
+    </label><br />
+    <label>Password Confirmation
+      <input type='password' id='passwordConfirmation' name='passwordConfirmation' required>
+      <span class="error"></span>
+    </label><br />
+    <button>Submit</button>
+  </form>
+
+  <script src="./script.js"></script>
+</body>
+
+</html>

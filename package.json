@@ -1,0 +1,24 @@
+{
+  "name": "form-validation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CameronStAmant/form-validation.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CameronStAmant/form-validation/issues"
+  },
+  "homepage": "https://github.com/CameronStAmant/form-validation#readme",
+  "devDependencies": {
+    "eslint": "^7.12.1",
+    "eslint-config-prettier": "^6.15.0",
+    "prettier": "2.1.2"
+  }
+}
